@@ -42,7 +42,7 @@ class TopSection extends StatelessWidget {
                           ),
                           SizedBox(height: 8),
                           Text(
-                            "Bora aprender Flutter com o professor Daniel Ciolfi! Curso por apenas R\$22,99. Qualidade Garantida.",
+                            "Bora aprender Flutter com o professor! Curso por apenas R\$22,99. Qualidade Garantida.",
                             style: TextStyle(
                               fontSize: 18,
                               color: Colors.white,
