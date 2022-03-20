@@ -2,6 +2,7 @@ import 'package:app1/breakpoints.dart';
 import 'package:app1/pages/home/widgets/app_bar/mobile_app_bar.dart';
 import 'package:app1/pages/home/widgets/app_bar/web_app_bar.dart';
 import 'package:app1/pages/home/widgets/sections/advantages_section.dart';
+import 'package:app1/pages/home/widgets/sections/courses_section.dart';
 import 'package:app1/pages/home/widgets/sections/top_sections.dart';
 import 'package:flutter/material.dart';
 
@@ -29,9 +30,10 @@ class HomePage extends StatelessWidget {
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 1400),
               child: ListView(
-                children: [
+                children: const [
                   TopSection(),
                   AdvantagesSection(),
+                  CoursesSection(),
                 ],
               )
             ),
